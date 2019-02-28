@@ -1,0 +1,56 @@
+body{
+  font:15px/1.5/;
+}
+
+h1{
+  clear:left;
+}
+
+header{
+  background-color: black;
+  color:#ffffff;
+  width:100%;
+  position: fixed;
+  height:138px;
+  display:flex;
+}
+
+header ul {
+  margin:0;
+  padding:0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+header li {
+  float:left;
+  display: inline;
+  padding: 0 25px 0 25px
+}
+
+.header-img{
+  float:left;
+  display: inline-block;
+}
+
+.section-container{
+  padding-top: 150px;
+  clear: both;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+  .video {
+    width:200px;
+    height:200px;
+  }
+}
