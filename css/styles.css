@@ -60,31 +60,58 @@ height: 80px;
 background: url(../images/image.1.jpg) no-repeat 0 -4px;
 width: 100%;
 background-size: cover;
+background-attachment: 100%;
+max-height: 100%;
 }
 
 .fixed-space{
-  height:80px;
+  height:85px;
   width:100%;
+  background-color: black;
 }
 
 .container h1{
-  margin:0 0 40px 0;
-  padding-top: 40px;
-  font-size: 50px
+margin: 0px 0 79px 0;
+padding: 64px 0 60px 0;
+font-size: 143px;
 }
 
 .container p{
-  margin:40px 0 40px 0;
+  margin: 40px auto 100px auto;
+  font-size: 40px;
+  padding: 30px 0 50px 0;
+  width: 79%;
+}
+
+.form{
+  background: aqua;
+  display: block;
+  padding: 50px 0;
 
 }
+
+#Contact{
+
+}
+
 
 #showcase{
-background: url(../images/section.1.jpg) no-repeat 0 -243px;
-background-size:cover;
-min-height: 400px;
+background: url(../images/section.1.jpg) no-repeat 0 84px;
 color: #ffffff;
 text-align: center;
+height: 109%;
+max-height: 120%;
+background-size: cover;
+background-attachment: fixed;
 }
+
+
+
+
+
+
+}
+
 
 
 @media screen and (max-width:900px) {
