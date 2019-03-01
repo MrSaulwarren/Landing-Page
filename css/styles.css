@@ -11,8 +11,13 @@ header{
   color:#ffffff;
   width:100%;
   position: fixed;
-  height:138px;
-  display:flex;
+  height: 131px;
+
+}
+
+/* Global property settings*/
+ul{
+  list-style-type: none;
 }
 
 header ul {
@@ -21,26 +26,33 @@ header ul {
 }
 
 header a {
-  color: white;
+  color:white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 header li {
   float:left;
-  display: inline;
-  padding: 0 25px 0 25px
+  padding: 0 25px 0 25px;
 }
 
-.header-img{
+header #img-div{
   float:left;
-  display: inline-block;
+  height:131px;
 }
+
+header nav{
+  float: right;
+}
+
+.container{
+  width: 100%;
+}
+
 
 .section-container{
   padding-top: 150px;
-  clear: both;
 }
 
 
