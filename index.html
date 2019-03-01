@@ -5,16 +5,18 @@
 
 <head>
   <meta charset="utf-8">
-  <link name="viewport" content="device=device-width" rel="stylesheet" href="./css/styles.css">
+  <link name="viewport" content="device=device-width">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
   <title>Truely Jamaican Products | Welcome</title>
 </head>
 <body>
   <header id="header"">
-    <div class="container">
-      <div  id="img-div">
-        <img src="https://i.ibb.co/bbrBCFZ/one-people-3.jpg" alt="one-people" border="0">
+    <div class="header-container">
+      <div  id="logo">
+        <img class="img-logo" src="https://i.ibb.co/bbrBCFZ/one-people-3.jpg" alt="one-people" border="0">
       </div>
-      <nav id="nav-bar" class="nav-bar">
+      <div class="background-img"></div>
+      <nav id="nav-bar">
         <ul>
           <li><a class="nav-link" href="#header-img">About</a></li>
           <li><a class="nav-link" href="#header-img">Services</a></li>
@@ -23,20 +25,22 @@
       </nav>
     </div>
   </header>
-  <section>
-    <div class="section-container">
+  <div class="fixed-space"></div>
+  <section id="showcase">
+    <div class="container">
       <h1>Truely Jamaican Produce</h1>
       <p>Pay us a vist if you want to experience caribean life in your bellys. Come fill your stomachs till your hearts content and leave with a smile on your face.
       We have a great menu selection to choose from, it doesn't matter what you choose, I can garentee you won't be dissapointed</p>
     </div>
   </section>
-  <div class="container">
-    <form id="form" class="form" action="" method="post">
-      <iframe id="video" class="video" width="600" height="600" src="https://www.youtube.com/embed/5ZwaikKn4hs"</iframe> <label>Enter your Email
-      <input id="email" class="Email-input" type="email" name="email" placeholder="Enter email" required>
-      <input id="submit" type="Submit"></label>
+  <section id="contact">
+    <form id="form" class="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <label><input id="email" class="Email-input" type="email" name="email" placeholder="Enter email" required>Enter your Email</label>
+      <button type="submit" name="button" class="button-1">Submit</button>
     </form>
-  </div>
+  </section>
+  
+
 </body>
 
 </html>
